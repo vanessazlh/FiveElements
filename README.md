@@ -1,7 +1,7 @@
 
 # Five Elements Game
 
-A modern web implementation of the traditional Chinese five elements (Wu Xing) game.
+A web game based on the traditional Chinese philosophy of five elements (Wu Xing).
 
 ## Features
 
