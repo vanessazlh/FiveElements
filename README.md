@@ -63,24 +63,6 @@ The five elements interact in a cycle of creation and destruction:
 | Soil | 🔥 Fire, 🌊 Water |⛏️ Metal, 🪵 Wood
 
 
-## Development
-### Project Structure
-five-elements-game/
-├── index.html          # Main HTML file
-├── style.css           # All styling
-├── script.js           # Game logic
-├── images/             # Game assets
-│   ├── metal-icon.png
-│   ├── wood-icon.png
-│   ├── water-icon.png
-│   ├── fire-icon.png
-│   ├── soil-icon.png
-│   └── question-icon.png
-└── README.md 
-
-### Customizing
-	1	To change colors: Modify the CSS variables in :root
-	2	To add animations: Add new @keyframes in CSS
-	3	To modify game rules: Update the winningRules object in JavaScript
+![image](https://github.com/user-attachments/assets/9fdb05bc-d005-458d-8815-c5058ca3b121)
 
 Created by Vanessa Zhou - github.com/vanessazlh
