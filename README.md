@@ -2,7 +2,6 @@
 # Five Elements Game
 
 A web game based on the traditional Chinese philosophy of five elements (Wu Xing).
-
 ## Features
 
 🎮 **Interactive Gameplay**  
@@ -55,16 +54,17 @@ A web game based on the traditional Chinese philosophy of five elements (Wu Xing
 ### Game Rules
 The five elements interact in a cycle of creation and destruction:
 
-| Element |   Defeats   | Defeated By
-|  Metal  | Wood & Soil | Fire & Water
-|  Wood   |Water & Soil | Metal & Fire
-|  Water  |Metal & Fire | Wood & Soil
-|  Fire   |Metal & Wood | Soil & Water
-|  Soil   |Fire & Water | Metal & Wood
+| Element |Defeats  |Defeated By|
+|--|--|--|
+| Metal | 🪵 Wood, 🌱 Soil |🔥 Fire, 🌊 Water
+| Wood | 🌊 Water, 🌱 Soil |⛏️ Metal, 🔥 Fire
+| Water | ⛏️ Metal, 🔥 Fire |🪵 Wood, 🌱 Soil
+| Fire | ⛏️ Metal, 🪵 Wood |🌊 Water, 🌱 Soil
+| Soil | 🔥 Fire, 🌊 Water |⛏️ Metal, 🪵 Wood
 
 
-## Project Structure
-
+## Development
+### Project Structure
 five-elements-game/
 ├── index.html          # Main HTML file
 ├── style.css           # All styling
@@ -76,9 +76,9 @@ five-elements-game/
 │   ├── fire-icon.png
 │   ├── soil-icon.png
 │   └── question-icon.png
-└── README.md           # This file
+└── README.md 
 
-## Customizing
+### Customizing
 	1	To change colors: Modify the CSS variables in :root
 	2	To add animations: Add new @keyframes in CSS
 	3	To modify game rules: Update the winningRules object in JavaScript
