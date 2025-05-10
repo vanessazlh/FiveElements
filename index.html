@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Elements Challenge</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="game-header">
+            <h1>Five Elements Challenge</h1>
+            <p class="game-subtitle">A strategic game based on elemental dominance</p>
+        </header>
+
+        <main class="game-container">
+            <div class="game-board">
+                <div class="score-board">
+                    <div class="score-display">
+                        <div class="player-score">
+                            <span class="score-label">YOU</span>
+                            <span id="user-score" class="score-value">0</span>
+                        </div>
+                        <div class="score-separator">:</div>
+                        <div class="computer-score">
+                            <span class="score-label">COM</span>
+                            <span id="computer-score" class="score-value">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="battle-arena">
+                    <div class="combatant you">
+                        <div id="user-choice" class="element-display">
+                            <img src="images/question-icon.png" alt="?" class="result-icon">
+                        </div>
+                        <div class="combatant-label">Your Choice</div>
+                    </div>
+                    <div class="versus">VS</div>
+                    <div class="combatant computer">
+                        <div id="computer-choice" class="element-display">
+                            <img src="images/question-icon.png" alt="?" class="result-icon">
+                        </div>
+                        <div class="combatant-label">Computer</div>
+                    </div>
+                </div>
+
+                <div id="result-message" class="result-message">Select an element to begin!</div>
+            </div>
+
+            <div class="elements-container">
+                <div class="elements-row">
+                    <button class="element-choice" id="metal">
+                        <img src="images/metal-icon.png" alt="Metal 🛠️" class="element-icon">
+                        <span class="element-name">Metal</span>
+                    </button>
+                    <button class="element-choice" id="wood">
+                        <img src="images/wood-icon.png" alt="Wood 🪵" class="element-icon">
+                        <span class="element-name">Wood</span>
+                    </button>
+                    <button class="element-choice" id="water">
+                        <img src="images/water-icon.png" alt="Water 🌊" class="element-icon">
+                        <span class="element-name">Water</span>
+                    </button>
+                </div>
+                <div class="elements-row">
+                    <button class="element-choice" id="fire">
+                        <img src="images/fire-icon.png" alt="Fire 🔥" class="element-icon">
+                        <span class="element-name">Fire</span>
+                    </button>
+                    <button class="element-choice" id="soil">
+                        <img src="images/soil-icon.png" alt="Soil 🏜️" class="element-icon">
+                        <span class="element-name">Soil</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="game-footer">
+            <p>Made with love by Vanessa | Inspired by Chinese Wuxing philosophy</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
